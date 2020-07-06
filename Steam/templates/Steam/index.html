@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    
+    {% if latest_games_list %}
+    <ul>
+    {% for game in latest_games_list %}
+        <li><a href='https://store.steampowered.com/app/{{game.id}}'>{{ game.name }}</a></li>
+    {% endfor %}
+    </ul>
+    {% else %}
+        <p>No games are on sale.</p>
+    {% endif %}
+</html>
