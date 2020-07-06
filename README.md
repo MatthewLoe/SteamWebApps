@@ -8,3 +8,10 @@ containing hyperlinks to the Steam website page for the item. The design and bac
 
 The project has only been recently started and future improvements and additions will be made.
 
+Requirements
+  - Ptyhon 3
+    - contextlib module
+    - Django module
+    - json module
+    - re module
+    - requests module
